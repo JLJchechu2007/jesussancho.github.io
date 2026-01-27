@@ -1,0 +1,82 @@
+{
+      "lineas": [
+            {
+                  "idLinea": 1,
+                  "precio": 5,
+                  "idFactura": 1,
+                  "idProducto": 101,
+                  "cantidad": 2
+            },
+            {
+                  "idLinea": 2,
+                  "precio": 5.1,
+                  "idFactura": 1,
+                  "idProducto": 102,
+                  "cantidad": 5
+            },
+            {
+                  "idLinea": 3,
+                  "precio": 6,
+                  "idFactura": 2,
+                  "idProducto": 105,
+                  "cantidad": 3
+            },
+            {
+                  "idLinea": 4,
+                  "precio": 99.9,
+                  "idFactura": 4,
+                  "idProducto": 109,
+                  "cantidad": 1
+            },
+            {
+                  "idLinea": 5,
+                  "precio": 11,
+                  "idFactura": 5,
+                  "idProducto": 103,
+                  "cantidad": 5
+            },
+            {
+                  "idLinea": 6,
+                  "precio": 12.5,
+                  "idFactura": 6,
+                  "idProducto": 108,
+                  "cantidad": 1
+            },
+            {
+                  "idLinea": 7,
+                  "precio": 10.5,
+                  "idFactura": 7,
+                  "idProducto": 1,
+                  "cantidad": 50
+            },
+            {
+                  "idLinea": 8,
+                  "precio": 10.5,
+                  "idFactura": 8,
+                  "idProducto": 1,
+                  "cantidad": 33
+            },
+            {
+                  "idLinea": 9,
+                  "precio": 20.75,
+                  "idFactura": 8,
+                  "idProducto": 2,
+                  "cantidad": 10
+            },
+            {
+                  "idLinea": 10,
+                  "precio": 10.5,
+                  "idFactura": 11,
+                  "idProducto": 1,
+                  "cantidad": 3
+            },
+            {
+                  "idLinea": 11,
+                  "precio": 10.5,
+                  "idFactura": 9,
+                  "idProducto": 1,
+                  "cantidad": 2
+            }
+      ],
+      "cont": 11
+}

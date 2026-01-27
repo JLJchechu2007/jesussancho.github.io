@@ -1,0 +1,86 @@
+{
+      "facturas": [
+            {
+                  "fecha": "2024-12-01",
+                  "idCliente": 4,
+                  "importeTotal": 35.5,
+                  "idFactura": 1,
+                  "idVendedor": "E001",
+                  "direccion": "Calle Mayor 12",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-01-15",
+                  "idCliente": 2,
+                  "importeTotal": 18,
+                  "idFactura": 2,
+                  "idVendedor": "E002",
+                  "direccion": "Av. de la Paz 45",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-02-20",
+                  "idCliente": 5,
+                  "importeTotal": 0,
+                  "idFactura": 3,
+                  "idVendedor": "E003",
+                  "direccion": "Calle Luna 8",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-03-03",
+                  "idCliente": 1,
+                  "importeTotal": 99.9,
+                  "idFactura": 4,
+                  "idVendedor": "E001",
+                  "direccion": "Plaza Sol 10",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-04-10",
+                  "idCliente": 3,
+                  "importeTotal": 55,
+                  "idFactura": 5,
+                  "idVendedor": "E004",
+                  "direccion": "Calle Verde 22",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-04-28",
+                  "idCliente": 6,
+                  "importeTotal": 12.5,
+                  "idFactura": 6,
+                  "idVendedor": "E002",
+                  "direccion": "Calle Río 99",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-05-03",
+                  "idCliente": 19,
+                  "importeTotal": 525,
+                  "idFactura": 7,
+                  "idVendedor": "651262C",
+                  "direccion": "Colegio Mayor Mendel",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-05-03",
+                  "idCliente": 4,
+                  "importeTotal": 280.5,
+                  "idFactura": 8,
+                  "idVendedor": "15815C",
+                  "direccion": "Mostoles, C/Perseo, 53",
+                  "activo": true
+            },
+            {
+                  "fecha": "2025-05-03",
+                  "idCliente": 4,
+                  "importeTotal": 21,
+                  "idFactura": 9,
+                  "idVendedor": "15815C",
+                  "direccion": "el pais de las maravillas",
+                  "activo": true
+            }
+      ],
+      "cont": 9
+}
