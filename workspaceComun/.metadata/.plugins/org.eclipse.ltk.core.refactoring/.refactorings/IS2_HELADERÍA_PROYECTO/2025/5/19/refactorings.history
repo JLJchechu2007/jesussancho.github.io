@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from project &apos;IS2_HELADERÍA_PROYECTO&apos;&#x0D;&#x0A;- Original project: &apos;IS2_HELADERÍA_PROYECTO&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     11445711.png&#x0D;&#x0A;     2693336.png&#x0D;&#x0A;     411745.png&#x0D;&#x0A;     7245845.png&#x0D;&#x0A;     88442.png&#x0D;&#x0A;     productos.json" description="Delete elements" element1="resources/Icons/7245845.png" element2="resources/Icons/88442.png" element3="resources/productos.json" element4="resources/Icons/11445711.png" element5="resources/Icons/2693336.png" element6="resources/Icons/411745.png" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="6" stamp="1746430756190" subPackages="false" version="1.0"/>
+</session>
