@@ -3,50 +3,46 @@
 📍 Madrid, España · 🎓 Doble Grado en Matemáticas + Ingeniería Informática (UCM)  
 📩 jesus.sanchohagen@gmail.com · 📞 +34 660 633 059
 
-Este repositorio reúne mis proyectos académicos y personales más relevantes. Me interesa especialmente la combinación de **modelado matemático**, **desarrollo de software**, **optimización de algoritmos** e **inteligencia artificial**.
+Este repositorio reúne mis proyectos más destacados (académicos y personales). Me interesa especialmente la combinación de **modelado matemático**, **desarrollo de software**, **optimización de algoritmos** e **inteligencia artificial**, construyendo soluciones eficientes y bien estructuradas.
 
 ---
 
-## 📌 Índice de proyectos
+## 🚀 Proyectos incluidos
 
-- 🚦 [Simulador de Tráfico (Java)](#-simulador-de-tráfico-java)
-- 🍦 [Gestión de Heladería / Negocio (Java)](#-gestión-de-heladería--negocio-java)
-- 😀 [CNN de Reconocimiento de Emociones](#-cnn-de-reconocimiento-de-emociones)
+- 🚦 [Proyecto simulador trafico](#-proyecto-simulador-trafico)
+- 🍦 [Heladeria (Business Management Application Java)](#-heladeria-business-management-application-java)
+- 😀 [Face Recognition CNN](#-face-recognition-cnn)
 
 ---
 
-## 🚦 Simulador de Tráfico (Java)
+## 🚦 Proyecto simulador trafico
 
-**Simulador dirigido por eventos** desarrollado en Java usando POO. Incluye modelado de carreteras, vehículos y comportamientos dinámicos en función del clima y parámetros definidos por el usuario.  
+Simulador **dirigido por eventos** desarrollado en Java con POO. Modela carreteras, vehículos y comportamientos dinámicos según clima y parámetros definidos por el usuario.  
 **Calificación:** 10/10.
 
 **Tecnologías / conceptos:** Java · POO · simulación · arquitectura orientada a eventos  
-📂 Carpeta: `./<traffic-simulator>/`  
-▶️ Cómo ejecutarlo: ver `./<traffic-simulator>/README.md`
+📂 Carpeta: [Proyecto simulador trafico](./Proyecto%20simulador%20trafico)
 
 ---
 
-## 🍦 Gestión de Heladería / Negocio (Java)
+## 🍦 Heladeria (Business Management Application Java)
 
-Aplicación de gestión orientada a negocios usando **JSON como base de datos de bajo nivel**. Incluye documentación completa (SRS), diagramas UML y una arquitectura modular bien estructurada.  
+Aplicación de gestión orientada a negocios usando **JSON como base de datos de bajo nivel**. Incluye documentación completa (SRS), diagramas UML y una arquitectura modular bien organizada.  
 **Calificación:** 9,6/10.
 
 **Tecnologías / conceptos:** Java · JSON · UML · SRS · arquitectura modular  
-📂 Carpeta: `./<business-app>/`  
-📄 Documentación: `./<business-app>/docs/`
+📂 Carpeta: [Heladeria (Business Management Application Java)](./Heladeria%20(Business%20Management%20Application%20Java))
 
 ---
 
-## 😀 CNN de Reconocimiento de Emociones
+## 😀 Face Recognition CNN
 
-Red neuronal convolucional capaz de analizar imágenes faciales y clasificar estados emocionales. Proyecto desarrollado en el contexto de competiciones de programación/IA.
+Red neuronal convolucional capaz de analizar imágenes faciales y clasificar estados emocionales/expresiones. Proyecto desarrollado en el contexto de competiciones y prácticas de IA.
 
 **Tecnologías / conceptos:** Python · CNN · visión por computador · clasificación de imágenes  
-📂 Carpeta: `./<cnn-emotion-recognition>/`  
-🧪 Entrenamiento/evaluación: ver `./<cnn-emotion-recognition>/README.md`
+📂 Carpeta: [Face Recognition CNN](./Face%20Recognition%20CNN)
 
 ---
-
 
 ## 🛠️ Habilidades técnicas
 
@@ -75,4 +71,4 @@ Deporte (medias maratones, deportes de raqueta, golf, judo) · Viajes (18+ país
 ---
 
 ## 🤝 Contacto
-Si quieres comentar algún proyecto, colaborar o pedir más detalles, puedes escribirme a: **jesus.sanchohagen@gmail.com**
+Si quieres comentar algún proyecto o colaborar, puedes escribirme a: **jesus.sanchohagen@gmail.com**
