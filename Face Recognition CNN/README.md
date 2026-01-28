@@ -1,3 +1,4 @@
+# Proyecto
 Entrenamiento de una red convolucional (CNN) para clasificación de **emociones faciales** usando imágenes en escala de grises de **48×48** del dataset **FER2013**.
 
 El repositorio está preparado para:
@@ -6,7 +7,7 @@ El repositorio está preparado para:
 - Entrenar el modelo con `train.py`
 - Guardar el mejor modelo como `.h5` en `models/`
 
-# Cómo usar este proyecto (FER2013)
+# Cómo usar este proyecto
 
 ## 1) Instalar dependencias
 En la carpeta del proyecto, ejecuta:
