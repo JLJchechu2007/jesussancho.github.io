@@ -1,45 +1,44 @@
-# Proyecto
-Entrenamiento de una red convolucional (CNN) para clasificación de **emociones faciales** usando imágenes en escala de grises de **48×48** del dataset **FER2013**.
+# 😀 Face Recognition CNN — Emotion Classification
 
-El repositorio está preparado para:
+## 📌 Project / Proyecto
+
+**EN:**  
+Training of a **Convolutional Neural Network (CNN)** for **facial emotion classification** using **48×48 grayscale images** from the **FER2013** dataset.
+
+**ES:**  
+Entrenamiento de una **red neuronal convolucional (CNN)** para la **clasificación de emociones faciales** usando imágenes en **escala de grises de 48×48** del dataset **FER2013**.
+
+---
+
+## 📦 Repository setup / Preparación del repositorio
+
+**EN:**  
+This repository is prepared to:
+- Install dependencies using `requirements.txt`
+- Download the dataset from Kaggle using `download_data.sh`
+- Train the model using `train.py`
+- Save the best trained model as a `.h5` file inside `models/`
+
+**ES:**  
+Este repositorio está preparado para:
 - Instalar dependencias con `requirements.txt`
-- Descargar el dataset desde Kaggle con `download_data.sh`
+- Descargar el dataset desde Kaggle usando `download_data.sh`
 - Entrenar el modelo con `train.py`
-- Guardar el mejor modelo como `.h5` en `models/`
+- Guardar el mejor modelo entrenado como `.h5` dentro de `models/`
 
-# Cómo usar este proyecto
+---
 
-## 1) Instalar dependencias
-En la carpeta del proyecto, ejecuta:
+## ▶️ How to use / Cómo usar este proyecto
 
+---
+
+### 1️⃣ Install dependencies / Instalar dependencias
+
+**EN:**  
+From the project root directory, run:
+
+**ES:**  
+Desde la carpeta raíz del proyecto, ejecuta:
+
+```bash
 pip install -r requirements.txt
-
-## 2) Configurar Kaggle (para poder descargar el dataset)
-Necesitas tu archivo kaggle.json (API token de Kaggle).
-
-- Descárgalo desde Kaggle: Account -> API -> Create New Token
-- Colócalo en tu ordenador en:
-
-Linux/Mac:
-~/.kaggle/kaggle.json
-
-Windows:
-C:\Users\TU_USUARIO\.kaggle\kaggle.json
-
-(IMPORTANTE: no subas ese archivo a GitHub)
-
-## 3) Descargar el dataset
-Ejecuta:
-
-./download_data.sh
-
-Eso descargará y descomprimirá el CSV en:
-data/fer2013.csv
-
-## 4) Entrenar el modelo
-Ejecuta:
-
-python train.py --data data/fer2013.csv --out models/Resultados.h5
-
-Al terminar, el mejor modelo se guardará en:
-models/Resultados.h5
