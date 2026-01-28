@@ -1,44 +1,69 @@
-# 😀 Face Recognition CNN — Emotion Classification
+# 😀 Face Recognition CNN — Emotion Classification (FER2013)
 
 ## 📌 Project / Proyecto
 
 **EN:**  
-Training of a **Convolutional Neural Network (CNN)** for **facial emotion classification** using **48×48 grayscale images** from the **FER2013** dataset.
+Training of a **Convolutional Neural Network (CNN)** for **facial emotion classification** using the **FER2013 dataset** from Kaggle.  
+The model works with **48×48 grayscale images** and classifies faces into **7 emotion categories**.
 
 **ES:**  
-Entrenamiento de una **red neuronal convolucional (CNN)** para la **clasificación de emociones faciales** usando imágenes en **escala de grises de 48×48** del dataset **FER2013**.
+Entrenamiento de una **red neuronal convolucional (CNN)** para la **clasificación de emociones faciales** utilizando el dataset **FER2013** de Kaggle.  
+El modelo trabaja con **imágenes en escala de grises de 48×48** y clasifica las caras en **7 categorías emocionales**.
 
 ---
 
-## 📦 Repository setup / Preparación del repositorio
+## 📊 Dataset / Base de datos
 
 **EN:**  
-This repository is prepared to:
-- Install dependencies using `requirements.txt`
-- Download the dataset from Kaggle using `download_data.sh`
-- Train the model using `train.py`
-- Save the best trained model as a `.h5` file inside `models/`
+This project uses the **FER2013** dataset, which provides facial images encoded as pixel strings.  
+Each sample contains:
+- `emotion`: integer label (0–6)
+- `pixels`: string with 2304 values (`48 × 48`)
+- `Usage`: split indicator (`Training`, `PublicTest`, `PrivateTest`)
 
 **ES:**  
-Este repositorio está preparado para:
-- Instalar dependencias con `requirements.txt`
-- Descargar el dataset desde Kaggle usando `download_data.sh`
-- Entrenar el modelo con `train.py`
-- Guardar el mejor modelo entrenado como `.h5` dentro de `models/`
+Este proyecto utiliza el dataset **FER2013**, que proporciona imágenes faciales codificadas como cadenas de píxeles.  
+Cada muestra contiene:
+- `emotion`: etiqueta entera (0–6)
+- `pixels`: cadena con 2304 valores (`48 × 48`)
+- `Usage`: indicador de partición (`Training`, `PublicTest`, `PrivateTest`)
+
+El entrenamiento se realiza **solo con las filas marcadas como `Training`**.  
+Si la columna `Usage` no existe, se usa todo el dataset para entrenamiento.
 
 ---
 
-## ▶️ How to use / Cómo usar este proyecto
-
----
-
-### 1️⃣ Install dependencies / Instalar dependencias
+## 🧠 Model architecture / Arquitectura del modelo
 
 **EN:**  
-From the project root directory, run:
+The CNN is a **deep architecture inspired by VGG-style networks**, composed of:
+- Multiple convolutional blocks with increasing depth
+- Zero-padding to preserve spatial dimensions
+- MaxPooling layers for downsampling
+- Fully connected layers with Dropout
+- Softmax output layer with **7 classes**
 
 **ES:**  
-Desde la carpeta raíz del proyecto, ejecuta:
+La CNN es una **arquitectura profunda inspirada en redes tipo VGG**, compuesta por:
+- Múltiples bloques convolucionales con profundidad creciente
+- Zero-padding para preservar dimensiones espaciales
+- Capas MaxPooling para reducción de resolución
+- Capas totalmente conectadas con Dropout
+- Capa de salida Softmax con **7 clases**
 
-```bash
-pip install -r requirements.txt
+**Input shape:** `(48, 48, 1)`  
+**Output:** probability distribution over 7 emotions
+
+---
+
+## ⚙️ Data processing / Procesado de datos
+
+**EN:**
+- Pixel strings are converted into `(48,48,1)` NumPy arrays
+- Values are normalized to `[0,1]`
+- Labels are one-hot encoded (`to_categorical`)
+
+**ES:**
+- Las cadenas de píxeles se convierten en arrays `(48,48,1)`
+- Los valores se normalizan a `[0,1]`
+- Las etiquetas se codifican en one-hot (`to_categorical`)
